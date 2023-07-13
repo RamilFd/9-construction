@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Строительство и ремонт</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrapper"> <!--wrapper-block-->
+
+        <!-- Шапка сайта -->
+
+        <header class="header">
+            <div class="container">
+                <div class="header-row">
+                    <img src="./images/header/logo.png" alt="логотип safe-house">
+                    <div class="header-row__block">
+                        <div class="menu">
+                            <ul class="menu-items">
+                                <li class="menu-items__link"><a href="#gallery">Портфолио</a></li>
+                                <li class="menu-items__link"><a href="#services">Услуги</a></li>
+                                <li class="menu-items__link"><a href="#price">Цены</a></li>
+                                <li class="menu-items__link"><a href="#footer">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <div class="phone phone-mobile">
+                            <address class="phone__number"><a href="tel:+375251234567">+375 (25) 123-45-67</a></address>
+                            <a href="#" class="phone__btn">Заказать звонок</a>
+                        </div>
+                    </div>
+                    <div class="header-burger">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+
+            <!-- Модальное окно -->
+            <div class="header-row__modal">
+                <div class="header-row__modal-window">
+                    <div class="header-row__modal-block">
+                        <form action="get">
+                            <p>Оставьте свой номер телефона в поле ниже, мы вам перезвоним!</p>
+                            <input type="tel" name="phone" placeholder="+7 (123) 456-78-79">
+                            <button class="button-order button-order-header" type="submit">Отправить</button>
+                        </form>
+                        <button class="header-row__modal-block-btn">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Голова сайта -->
+
+            <section class="top">
+                <div class="container-top">
+                    <div class="top-inner">
+                        <div class="top-body">
+                            <h1 class="top-body__title">Строительство и ремонт в Гомеле</h1>
+                            <p class="top-body__text">Надежное будущее строим вместе </p>
+                            <a href="#cta-2" class="button-order">Получить консультацию</a>
+                        </div>
+                        <div class="top-slider">
+                            <div class="top-slider__img">
+                                <img src="./images/top/top.png" alt="Оранжевая рамка">
+                            </div>
+                            <!-- Swiper -->
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="./images/top/slider-top-1.jpg"
+                                            alt="интерьер гостинной"></div>
+                                    <div class="swiper-slide"><img src="./images/top/slider-top-2.jpg"
+                                            alt="строительство загородных домов"></div>
+                                    <div class="swiper-slide"><img src="./images/top/slider-top-3.jpg"
+                                            alt="отделка ванных комнат"></div>
+                                    <div class="swiper-slide"><img src="./images/top/slider-top-4.jpg"
+                                            alt="комната в стиле лофт"></div>
+                                    <div class="swiper-slide"><img src="./images/top/slider-top-5.jpg"
+                                            alt="камины и печи"></div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Как мы работаем -->
+
+            <section class="how">
+                <div class="how-img" style="background-image: url(./images/how/how.jpg);"></div>
+
+                <div class="container">
+                    <div class="how-inner">
+                        <div class="title title-style-1">
+                            <div class="title-style-1__img"><img src="./images/how/how-line.png" alt="оранжевая линия">
+                            </div>
+                            <h2>как мы работаем</h2>
+                            <div class="title-style-1__img"><img src="./images/how/how-line.png" alt="оранжевая линия">
+                            </div>
+                        </div>
+
+                        <div class="how-inner__items">
+                            <div class="how-inner__item how-item-1">
+                                <p class="how-inner__item-number">01</p>
+                                <div class="how-inner__item-text">Бесплатный выезд мастера на объект для оценки работы
+                                </div>
+                            </div>
+                            <div class="how-inner__item how-item-2">
+                                <p class="how-inner__item-number">02</p>
+                                <div class="how-inner__item-text">Обсуждение работы с заказчиком
+                                </div>
+                            </div>
+                            <div class="how-inner__item how-item-3">
+                                <p class="how-inner__item-number">03</p>
+                                <div class="how-inner__item-text">Оформление и подписание договора
+                                </div>
+                            </div>
+                            <div class="how-inner__item how-item-4">
+                                <p class="how-inner__item-number">04</p>
+                                <div class="how-inner__item-text">Выполнение работ в соответствии с пожеланиями
+                                    заказчика
+                                </div>
+                            </div>
+                            <div class="how-inner__item how-item-5">
+                                <p class="how-inner__item-number">05</p>
+                                <div class="how-inner__item-text">Прием работы заказчиком и окончательный расчет
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Наши услуги -->
+
+            <section class="services" id="services">
+                <div class="container">
+                    <div class="services-inner">
+                        <div class="title title-style-2">
+                            <h2>наши услуги</h2>
+                            <div class="title-style-2__img"><img src="./images/how/how-line.png" alt="оранжевая линия">
+                            </div>
+                        </div>
+                        <div class="services-tab">
+                            <div class="services-tab-links">
+
+                                <div class="services-link services-link--active" data-tab="tab-1">
+                                    <img class="services-link__img" src="./images/services/tab-link1.jpg"
+                                        alt="краска и кисть">
+                                    <img class="services-svg" src="./images/services/link1.svg" alt="иконка кисти">
+                                    <p>Отделочные работы</p>
+                                </div>
+                                <div class="services-link" data-tab="tab-2">
+                                    <img class="services-link__img" src="./images/services/tab-link2.jpg"
+                                        alt="Загородный дом">
+                                    <img class="services-svg" src="./images/services/link2.svg" alt="иконка домика">
+                                    <p>Строительство домов</p>
+                                </div>
+                                <div class="services-link" data-tab="tab-3">
+                                    <img class="services-link__img" src="./images/services/tab-link3.jpg"
+                                        alt="электрощитовой ящик">
+                                    <img class="services-svg" src="./images/services/link3.svg" alt="иконка лампочки">
+                                    <p>Электрика</p>
+                                </div>
+                                <div class="services-link" data-tab="tab-4">
+                                    <img class="services-link__img" src="./images/services/tab-link4.jpg"
+                                        alt="смеситель">
+                                    <img class="services-svg" src="./images/services/link4.svg" alt="иконка сифона">
+                                    <p>Сантехника</p>
+                                </div>
+                            </div>
+                            <div class="services-tab-pages">
+
+                                <div class="tab-page" data-tab-content id="tab-1">
+                                    <img src="./images/services/tab-link1.jpg" alt="краска и кисть">
+                                    <h6>Отделочные работы</h6>
+                                    <ul>
+                                        <li>Перенос и установка счетчиков</li>
+                                        <li>Монтаж и ремонт водопровода</li>
+                                        <li>Монтаж отопления</li>
+                                        <li>Монтаж канализации</li>
+                                        <li>Замена и перенос полотенцесушителя</li>
+                                        <li>Установка кранов на полотенцесушитель</li>
+                                        <li>Установка инсталляций</li>
+                                        <li>Установка всех видов сантех оборудования</li>
+                                        <li>Замена батарей отопления</li>
+                                        <li>Замена и демонтаж радиатора отопления</li>
+                                        <li>Замена труб в ванной и туалете</li>
+                                        <li>Замена труб в ванной</li>
+                                        <li>Замена труб на пластиковые</li>
+                                        <li>Монтаж трубопроводов ПВХ</li>
+                                        <li>Замена и демонтаж радиатора отопления</li>
+                                    </ul>
+                                </div>
+
+                                <div class="tab-page hidden" data-tab-content id="tab-2">
+                                    <img src="./images/services/tab-link2.jpg" alt="загородный дом">
+                                    <h6>Строительство домов</h6>
+                                    <ul>
+                                        <li>Перенос и установка счетчиков</li>
+                                        <li>Монтаж и ремонт водопровода</li>
+                                        <li>Монтаж отопления</li>
+                                        <li>Монтаж канализации</li>
+                                        <li>Замена батарей отопления</li>
+                                        <li>Замена и демонтаж радиатора отопления</li>
+                                        <li>Замена труб в ванной и туалете</li>
+                                        <li>Замена труб в ванной</li>
+                                        <li>Замена и перенос полотенцесушителя</li>
+                                        <li>Установка кранов на полотенцесушитель</li>
+                                        <li>Установка инсталляций</li>
+                                    </ul>
+                                </div>
+
+                                <div class="tab-page hidden" data-tab-content id="tab-3">
+                                    <img src="./images/services/tab-link3.jpg" alt="электрощитовой ящик">
+                                    <h6>Электрика</h6>
+                                    <ul>
+                                        <li>Перенос и установка счетчиков</li>
+                                        <li>Монтаж и ремонт водопровода</li>
+                                        <li>Монтаж отопления</li>
+                                        <li>Монтаж канализации</li>
+                                        <li>Замена и перенос полотенцесушителя</li>
+                                        <li>Установка кранов на полотенцесушитель</li>
+                                        <li>Установка инсталляций</li>
+                                        <li>Установка всех видов сантех оборудования</li>
+                                        <li>Замена батарей отопления</li>
+                                        <li>Замена и демонтаж радиатора отопления</li>
+                                        <li>Замена труб в ванной и туалете</li>
+                                        <li>Замена труб в ванной</li>
+                                        <li>Замена труб на пластиковые</li>
+                                        <li>Монтаж трубопроводов ПВХ</li>
+                                        <li>Замена и демонтаж радиатора отопления</li>
+                                        <li>Монтаж трубопроводов ПВХ</li>
+                                    </ul>
+                                </div>
+
+                                <div class="tab-page hidden" data-tab-content id="tab-4">
+                                    <img src="./images/services/tab-link4.jpg" alt="смеситель">
+                                    <h6>Сантехника</h6>
+                                    <ul>
+                                        <li>Перенос и установка счетчиков</li>
+                                        <li>Монтаж и ремонт водопровода</li>
+                                        <li>Монтаж отопления</li>
+                                        <li>Монтаж канализации</li>
+                                        <li>Замена и перенос полотенцесушителя</li>
+                                        <li>Установка кранов на полотенцесушитель</li>
+                                        <li>Установка инсталляций</li>
+                                        <li>Установка всех видов сантех оборудования</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services-content">
+                            <p class="services-content__text">
+                                Для многих ремонт — это что-то вроде стихийного бедствия, но чем тщательнее вы его
+                                спланируете, тем проще будет его пережить. А уютная, привлекательная и чистая
+                                квартира – это мечта любого человека.
+                            </p>
+                            <p class="services-content__text2">
+                                Давайте воплотим Ваши мечты в реальность!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Обратная связь-1 -->
+
+            <div class="cta-1">
+                <div class="cta-1__background" style="background-image: url(./images/cta-1/cta-background.jpg);"></div>
+                <div class="container container-cta">
+                    <div class="cta-1__inner">
+                        <div class="cta-1-form">
+                            <div class="cta-1-form__title">Заполните форму</div>
+                            <form class="cta-1-form__form" action="#" method="get" name="form1">
+                                <input type="text" name="name" placeholder="Ваше имя">
+                                <input type="tel" name="phone" value="" placeholder="Номер телефона">
+                                <fieldset>
+                                    <legend>Опишите Вашу заявку</legend>
+                                    <textarea name="textarea" cols="29" rows="7"></textarea>
+                                </fieldset>
+                                <button class="button-order" type="submit" name="btn_submit">Получить
+                                    консультацию</button>
+                                <div class="cta-1__check">
+                                    <input type="checkbox" name="checkbox" id="checkbox" class="checkbox" checked
+                                        value="Принимаю условия Политики конфединциальности">
+                                    <label for="checkbox">Принимаю условия Политики конфединциальности</label>
+                                </div>
+                                <div class="checkbox-text"></div>
+                            </form>
+                        </div>
+                        <div class="cta-1-inner__block">
+                            <img src="./images/cta-1/cta-img.png" alt="наш довольный клиент">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- О нас -->
+
+            <section class="about">
+                <div class="about-background" style="background-image: url(./images/about/about.jpg);"></div>
+                <div class="container">
+                    <div class="about-inner">
+                        <div class="about-body">
+                            <h2 class="about-body__title">О нас</h2>
+                            <ul>
+                                <li class="about-body__li">Качественное проведение работ</li>
+                                <li class="about-body__li">Обсуждение работы на каждом этапе</li>
+                                <li class="about-body__li">Профессиональный инструмент</li>
+                                <li class="about-body__li">Начинаем работу без аванса</li>
+                                <li class="about-body__li">Доступные цены</li>
+                            </ul>
+
+                        </div>
+                        <div class="about-slider">
+                            <!-- Swiper -->
+                            <div class="swiper swipper2 mySwiper2">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide swiper2">
+                                        <p class="swiper2-slide-text">более</p>
+                                        <p class="swiper2-slide-number">15</p>
+                                        <p class="swiper2-slide-text">лет успешной работы</p>
+                                    </div>
+                                    <div class="swiper-slide swiper2">
+                                        <p class="swiper2-slide-text">более</p>
+                                        <p class="swiper2-slide-number">1000</p>
+                                        <p class="swiper2-slide-text">м2 готовых объектов</p>
+                                    </div>
+                                    <div class="swiper-slide swiper2">
+                                        <p class="swiper2-slide-text">более</p>
+                                        <p class="swiper2-slide-number">500</p>
+                                        <p class="swiper2-slide-text">довольных клиентов</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Галерея -->
+
+            <section class="gallery" id="gallery">
+                <div class="container container-gallery">
+                    <div class="title title-style-1">
+                        <div class="title-style-1__img"><img src="./images/how/how-line.png" alt="оранжевая линия">
+                        </div>
+                        <h2>Галерея работ</h2>
+                        <div class="title-style-1__img"><img src="./images/how/how-line.png" alt="оранжевая линия">
+                        </div>
+                    </div>
+                    <!-- Кнопки модалок -->
+                    <div class="gallery-images">
+                        <div class="gallery-images__card" data-tab="tabG-1">
+                            <img class="card-image" src="./images/gallery/plitka.jpg" alt="плиточные работы">
+                            <div class="card-image-border"></div>
+                            <p class="card-image-btn">плитка</p>
+                        </div>
+                        <div class="gallery-images__card" data-tab="tabG-2">
+                            <img class="card-image" src="./images/gallery/kladka.jpg" alt="кладочные работы">
+                            <div class="card-image-border"></div>
+                            <p class="card-image-btn">кладка</p>
+                        </div>
+                        <div class="gallery-images__card" data-tab="tabG-3">
+                            <img class="card-image" src="./images/gallery/otdelka.jpg" alt="отделочные работы">
+                            <div class="card-image-border"></div>
+                            <p class="card-image-btn">отделка</p>
+                        </div>
+                        <div class="gallery-images__card" data-tab="tabG-4">
+                            <img class="card-image" src="./images/gallery/krovla.jpg" alt="кровельные работы">
+                            <div class="card-image-border"></div>
+                            <p class="card-image-btn">кровля</p>
+                        </div>
+                        <div class="gallery-images__card" data-tab="tabG-5">
+                            <img class="card-image" src="./images/gallery/santehnika.jpg" alt="сантехнические работы">
+                            <div class="card-image-border"></div>
+                            <p class="card-image-btn">сантехника</p>
+                        </div>
+                        <div class="gallery-images__card" data-tab="tabG-6">
+                            <img class="card-image" src="./images/gallery/electrika.jpg" alt="электро-работы">
+                            <div class="card-image-border"></div>
+                            <p class="card-image-btn">электрика</p>
+                        </div>
+                    </div>
+
+                    <!-- Окна модалок -->
+
+                    <div class="gallery-page" id="tabG-1">
+                        <div class="gallery-page__inner">
+                            <h3 class="gallery-title">Плитка</h3>
+                            <div class="gallery-page__images">
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/1.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/2.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/3.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/4.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/5.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/6.jpg" alt="кровельные работы">
+                                </div>
+                            </div>
+                            <button class="gallery-page-btn">Закрыть</button>
+                        </div>
+                    </div>
+
+                    <div class="gallery-page" id="tabG-2">
+                        <div class="gallery-page__inner">
+                            <h3 class="gallery-title">Кладка</h3>
+                            <div class="gallery-page__images">
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/1.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/2.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/3.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/4.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/5.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/6.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/1.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/2.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/3.jpg" alt="кровельные работы">
+                                </div>
+                            </div>
+                            <button class="gallery-page-btn">Закрыть</button>
+                        </div>
+                    </div>
+
+                    <div class="gallery-page" id="tabG-3">
+                        <div class="gallery-page__inner">
+                            <h3 class="gallery-title">Отделка</h3>
+                            <div class="gallery-page__images">
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/1.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/2.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/3.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/4.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/5.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/6.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/1.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/2.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/3.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/4.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/5.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/6.jpg" alt="кровельные работы">
+                                </div>
+                            </div>
+                            <button class="gallery-page-btn">Закрыть</button>
+                        </div>
+                    </div>
+
+                    <div class="gallery-page" id="tabG-4">
+                        <div class="gallery-page__inner">
+                            <h3 class="gallery-title">Кровля</h3>
+                            <div class="gallery-page__images">
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/1.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/2.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/3.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/4.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/5.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/6.jpg" alt="кровельные работы">
+                                </div>
+                            </div>
+                            <button class="gallery-page-btn">Закрыть</button>
+                        </div>
+                    </div>
+
+                    <div class="gallery-page" id="tabG-5">
+                        <div class="gallery-page__inner">
+                            <h3 class="gallery-title">Сантехника</h3>
+                            <div class="gallery-page__images">
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/1.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/2.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/3.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/4.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/5.jpg" alt="кровельные работы">
+                                </div>
+                            </div>
+                            <button class="gallery-page-btn">Закрыть</button>
+                        </div>
+                    </div>
+
+                    <div class="gallery-page" id="tabG-6">
+                        <div class="gallery-page__inner">
+                            <h3 class="gallery-title">Электрика</h3>
+                            <div class="gallery-page__images">
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/1.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/2.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/3.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/4.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/5.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/6.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/3.jpg" alt="кровельные работы">
+                                </div>
+                                <div class="gallery-page__card">
+                                    <img src="./images/gallery/page-fade/4.jpg" alt="кровельные работы">
+                                </div>
+                            </div>
+                            <button class="gallery-page-btn">Закрыть</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Прайс лист  ТАБЛИЦА -->
+
+            <section class="price" id="price">
+                <div class="container-table">
+                    <div class="title title-style-3">
+                        <h2>прайс-лист на услуги</h2>
+                    </div>
+
+                    <div class="price-table">
+
+                        <div class="price-table__buttons">
+                            <button class="price-table__btn price-table__btn--active" data-tab="table1">Отделка</button>
+                            <button class="price-table__btn" data-tab="table2">Строительство</button>
+                            <button class="price-table__btn" data-tab="table3">Кровля</button>
+                            <button class="price-table__btn" data-tab="table4">Сантехника</button>
+                            <button class="price-table__btn" data-tab="table5">Электрика</button>
+                        </div>
+
+                        <div class="price-table-inner">
+
+                            <table class="price-table__table price-table__table--active" id="table1">
+                                <tr>
+                                    <td colspan="3"></td>
+                                </tr>
+                                <tr>
+                                    <th>Наименование работ</th>
+                                    <th>Ед. измерения</th>
+                                    <th>Цена от, руб</th>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Штукатурка по маякам</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">10</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Установка и демонтаж маяка</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Штукатурка потолка по плоскости</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">5</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж армирующей сетки</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж ГКЛ (ровный)</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">10</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж конструкций ГКЛ короб</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">10</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж конструкций ГКЛ со скрытой подсветкой</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">12</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж криволинейного потолочного откоса</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">12</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Финишное шлифование и зачистка потолка</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">4</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Проклейка швов серпянкой</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">3</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж подвесного потолка «Грильято»</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">10</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж подвесного потолка «Армстронг»</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">8</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж пластиковых панелей на потолке</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">10</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж натяжного потолка (с материалом) </td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2"></td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Поклейка декоративного багета (галтель)</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">16</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Подготовка конструкции короб ГКЛ к покраске</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">44</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Выравнивание балок одна плоскость</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">4</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Установка перфорированного угла </td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">5</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Шлифовка</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Заделка стыков ГКЛ, проклейка ленты </td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Покраска потолка</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Покраска конструкций ГКЛ</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Окраска , полиуретанового потолочного плинтуса</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">3</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Оклейка потолочного плинтуса пенопласт</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">5</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Грунтовка</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3"></td>
+                                </tr>
+                            </table>
+
+                            <table class="price-table__table" id="table2">
+                                <tr>
+                                    <td colspan="3"></td>
+                                </tr>
+                                <tr>
+                                    <th>Наименование работ</th>
+                                    <th>Ед. измерения</th>
+                                    <th>Цена от, руб</th>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Штукатурка по маякам</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">10</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Установка и демонтаж маяка</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Штукатурка потолка по плоскости</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">5</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж армирующей сетки</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж натяжного потолка (с материалом) </td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2"></td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Поклейка декоративного багета (галтель)</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">16</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Подготовка конструкции короб ГКЛ к покраске</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">44</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Выравнивание балок одна плоскость</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">4</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Установка перфорированного угла </td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">5</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Шлифовка</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Заделка стыков ГКЛ, проклейка ленты </td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Покраска потолка</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Покраска конструкций ГКЛ</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Окраска , полиуретанового потолочного плинтуса</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">3</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Оклейка потолочного плинтуса пенопласт</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">5</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Грунтовка</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3"></td>
+                                </tr>
+                            </table>
+
+                            <table class="price-table__table" id="table3">
+                                <tr>
+                                    <td colspan="3"></td>
+                                </tr>
+                                <tr>
+                                    <th>Наименование работ</th>
+                                    <th>Ед. измерения</th>
+                                    <th>Цена от, руб</th>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Штукатурка по маякам</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">10</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Установка и демонтаж маяка</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Штукатурка потолка по плоскости</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">5</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж армирующей сетки</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж ГКЛ (ровный)</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">10</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Покраска потолка</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Покраска конструкций ГКЛ</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Окраска , полиуретанового потолочного плинтуса</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">3</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Оклейка потолочного плинтуса пенопласт</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">5</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Грунтовка</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3"></td>
+                                </tr>
+                            </table>
+
+                            <table class="price-table__table" id="table4">
+                                <tr>
+                                    <td colspan="3"></td>
+                                </tr>
+                                <tr>
+                                    <th>Наименование работ</th>
+                                    <th>Ед. измерения</th>
+                                    <th>Цена от, руб</th>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Штукатурка по маякам</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">10</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Установка и демонтаж маяка</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Штукатурка потолка по плоскости</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">5</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж армирующей сетки</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж ГКЛ (ровный)</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">10</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж конструкций ГКЛ короб</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">10</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж конструкций ГКЛ со скрытой подсветкой</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">12</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж криволинейного потолочного откоса</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">12</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Финишное шлифование и зачистка потолка</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">4</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Проклейка швов серпянкой</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">3</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж подвесного потолка «Грильято»</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">10</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж подвесного потолка «Армстронг»</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">8</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж пластиковых панелей на потолке</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">10</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж натяжного потолка (с материалом) </td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2"></td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Поклейка декоративного багета (галтель)</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">16</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Подготовка конструкции короб ГКЛ к покраске</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">44</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Выравнивание балок одна плоскость</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">4</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Установка перфорированного угла </td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">5</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Шлифовка</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Заделка стыков ГКЛ, проклейка ленты </td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Покраска потолка</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Покраска конструкций ГКЛ</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Окраска , полиуретанового потолочного плинтуса</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">3</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Оклейка потолочного плинтуса пенопласт</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">5</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Грунтовка</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3"></td>
+                                </tr>
+                            </table>
+
+                            <table class="price-table__table" id="table5">
+                                <tr>
+                                    <td colspan="3"></td>
+                                </tr>
+                                <tr>
+                                    <th>Наименование работ</th>
+                                    <th>Ед. измерения</th>
+                                    <th>Цена от, руб</th>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Штукатурка по маякам</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">10</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Установка и демонтаж маяка</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Штукатурка потолка по плоскости</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">5</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж армирующей сетки</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж ГКЛ (ровный)</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">10</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж конструкций ГКЛ короб</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">10</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж конструкций ГКЛ со скрытой подсветкой</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">12</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж криволинейного потолочного откоса</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">12</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Финишное шлифование и зачистка потолка</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">4</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Проклейка швов серпянкой</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">3</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Монтаж натяжного потолка (с материалом) </td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2"></td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Поклейка декоративного багета (галтель)</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">16</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Подготовка конструкции короб ГКЛ к покраске</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">44</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Выравнивание балок одна плоскость</td>
+                                    <td class="td2">м.пог</td>
+                                    <td class="td2">4</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Установка перфорированного угла </td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">5</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Грунтовка</td>
+                                    <td class="td2">м²</td>
+                                    <td class="td2">2</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3"></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="price-button">
+                            <a href="./price/price.xls" class="price-button__btn button-order" type="button" download>Скачать весь прайс</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Обратная связь-2 -->
+
+            <section class="cta-2" id="cta-2">
+                <div class="cta-2__bg">
+                    <div class="container">
+                        <div class="title title-style-3">
+                            <h2>СВЯЖИТЕСЬ С НАМИ ИЛИ ОСТАВЬТЕ ЗАЯВКУ</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="cta-2__body">
+                    <div class="cta-1__background" style="background-image: url(./images/cta-1/cta-background.jpg);">
+                    </div>
+                    <div class="container">
+                        <div class="cta-2__body-block">
+                            <div class="cta-2__inner">
+                                <img src="./images/cta-1/cta-img-2.png" alt="наш довольный клиент">
+                                <div class="cta-1-form">
+                                    <div class="cta-1-form__title">Заполните форму</div>
+                                    <form class="cta-1-form__form" action="#" method="post">
+                                        <input type="text" name="name" placeholder="Ваше имя">
+                                        <input type="tel" name="phone" placeholder="Номер телефона">
+                                        <fieldset>
+                                            <legend>Опишите Вашу заявку</legend>
+                                            <textarea name="textarea" cols="29" rows="7"></textarea>
+                                        </fieldset>
+                                        <button class="button-order" type="submit" name="btn_submit">Получить
+                                            консультацию</button>
+                                        <div class="cta-2__check">
+                                            <input type="checkbox" name="checkbox" id="checkbox2" class="checkbox"
+                                                checked value="Принимаю условия Политики конфединциальности">
+                                            <label for="checkbox2">Принимаю условия Политики конфединциальности</label>
+                                        </div>
+
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="footer-inner">
+                    <div class="footer-row">
+                        <div class="footer-row__contacts">
+                            <div class="row__contacts-block">
+                                <img src="./images/footer/phone.svg" alt="телефонная трубка">
+                                <address><a href="tel:+375251234567">+375 (25) 123-45-67</a></address>
+                            </div>
+                            <div class="row__contacts-block">
+                                <img src="./images/footer/mail.svg" alt="письменный бланк">
+                                <address><a href="mailto:stroyka@gmail.com">stroyka@gmail.com</a></address>
+                            </div>
+                        </div>
+                        <div class="footer-row__adress">
+                            <address>ИП Костин А.Н.</address>
+                            <address>УНП 11111111111</address>
+                            <address>Юридический адрес</address>
+                        </div>
+                    </div>
+                    <p class="footer-copyright">© Safehouse 2023</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
